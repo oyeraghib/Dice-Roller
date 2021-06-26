@@ -9,14 +9,13 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/dice_text"
+    <ImageView
+        android:id="@+id/dice_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1"
-        android:textSize="36sp"
         android:layout_gravity="center_horizontal"
-         />
+        app:srcCompat="@drawable/empty_dice" />
+
 
     <Button
         android:id="@+id/roll_button"
